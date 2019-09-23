@@ -1,0 +1,2 @@
+
+select 'DISABLE TRIGGER '+ NAME + ' ON ' + OBJECT_NAME(parent_id)+ char(10)+ char(13) + 'go' + char(10)+ char(13)  from SYS.triggers
